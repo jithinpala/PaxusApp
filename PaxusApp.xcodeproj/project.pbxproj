@@ -1,0 +1,449 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5DAABAD6202ED714004B2A73 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DAABAD5202ED714004B2A73 /* AppDelegate.swift */; };
+		5DAABAD8202ED714004B2A73 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DAABAD7202ED714004B2A73 /* ViewController.swift */; };
+		5DAABADB202ED714004B2A73 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DAABAD9202ED714004B2A73 /* Main.storyboard */; };
+		5DAABADD202ED714004B2A73 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5DAABADC202ED714004B2A73 /* Assets.xcassets */; };
+		5DAABAE0202ED714004B2A73 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DAABADE202ED714004B2A73 /* LaunchScreen.storyboard */; };
+		5DAABAEB202ED714004B2A73 /* PaxusAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DAABAEA202ED714004B2A73 /* PaxusAppTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5DAABAE7202ED714004B2A73 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5DAABACA202ED714004B2A73 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5DAABAD1202ED714004B2A73;
+			remoteInfo = PaxusApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5DAABAD2202ED714004B2A73 /* PaxusApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PaxusApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DAABAD5202ED714004B2A73 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5DAABAD7202ED714004B2A73 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5DAABADA202ED714004B2A73 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5DAABADC202ED714004B2A73 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5DAABADF202ED714004B2A73 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5DAABAE1202ED714004B2A73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5DAABAE6202ED714004B2A73 /* PaxusAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PaxusAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DAABAEA202ED714004B2A73 /* PaxusAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaxusAppTests.swift; sourceTree = "<group>"; };
+		5DAABAEC202ED714004B2A73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5DAABACF202ED714004B2A73 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DAABAE3202ED714004B2A73 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5DAABAC9202ED714004B2A73 = {
+			isa = PBXGroup;
+			children = (
+				5DAABAD4202ED714004B2A73 /* PaxusApp */,
+				5DAABAE9202ED714004B2A73 /* PaxusAppTests */,
+				5DAABAD3202ED714004B2A73 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5DAABAD3202ED714004B2A73 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5DAABAD2202ED714004B2A73 /* PaxusApp.app */,
+				5DAABAE6202ED714004B2A73 /* PaxusAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5DAABAD4202ED714004B2A73 /* PaxusApp */ = {
+			isa = PBXGroup;
+			children = (
+				5DAABAD5202ED714004B2A73 /* AppDelegate.swift */,
+				5DAABAD7202ED714004B2A73 /* ViewController.swift */,
+				5DAABAD9202ED714004B2A73 /* Main.storyboard */,
+				5DAABADC202ED714004B2A73 /* Assets.xcassets */,
+				5DAABADE202ED714004B2A73 /* LaunchScreen.storyboard */,
+				5DAABAE1202ED714004B2A73 /* Info.plist */,
+			);
+			path = PaxusApp;
+			sourceTree = "<group>";
+		};
+		5DAABAE9202ED714004B2A73 /* PaxusAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				5DAABAEA202ED714004B2A73 /* PaxusAppTests.swift */,
+				5DAABAEC202ED714004B2A73 /* Info.plist */,
+			);
+			path = PaxusAppTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5DAABAD1202ED714004B2A73 /* PaxusApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5DAABAEF202ED714004B2A73 /* Build configuration list for PBXNativeTarget "PaxusApp" */;
+			buildPhases = (
+				5DAABACE202ED714004B2A73 /* Sources */,
+				5DAABACF202ED714004B2A73 /* Frameworks */,
+				5DAABAD0202ED714004B2A73 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PaxusApp;
+			productName = PaxusApp;
+			productReference = 5DAABAD2202ED714004B2A73 /* PaxusApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5DAABAE5202ED714004B2A73 /* PaxusAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5DAABAF2202ED714004B2A73 /* Build configuration list for PBXNativeTarget "PaxusAppTests" */;
+			buildPhases = (
+				5DAABAE2202ED714004B2A73 /* Sources */,
+				5DAABAE3202ED714004B2A73 /* Frameworks */,
+				5DAABAE4202ED714004B2A73 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5DAABAE8202ED714004B2A73 /* PBXTargetDependency */,
+			);
+			name = PaxusAppTests;
+			productName = PaxusAppTests;
+			productReference = 5DAABAE6202ED714004B2A73 /* PaxusAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5DAABACA202ED714004B2A73 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Jithinpala;
+				TargetAttributes = {
+					5DAABAD1202ED714004B2A73 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					5DAABAE5202ED714004B2A73 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5DAABAD1202ED714004B2A73;
+					};
+				};
+			};
+			buildConfigurationList = 5DAABACD202ED714004B2A73 /* Build configuration list for PBXProject "PaxusApp" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5DAABAC9202ED714004B2A73;
+			productRefGroup = 5DAABAD3202ED714004B2A73 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5DAABAD1202ED714004B2A73 /* PaxusApp */,
+				5DAABAE5202ED714004B2A73 /* PaxusAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5DAABAD0202ED714004B2A73 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DAABAE0202ED714004B2A73 /* LaunchScreen.storyboard in Resources */,
+				5DAABADD202ED714004B2A73 /* Assets.xcassets in Resources */,
+				5DAABADB202ED714004B2A73 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DAABAE4202ED714004B2A73 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5DAABACE202ED714004B2A73 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DAABAD8202ED714004B2A73 /* ViewController.swift in Sources */,
+				5DAABAD6202ED714004B2A73 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DAABAE2202ED714004B2A73 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DAABAEB202ED714004B2A73 /* PaxusAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5DAABAE8202ED714004B2A73 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5DAABAD1202ED714004B2A73 /* PaxusApp */;
+			targetProxy = 5DAABAE7202ED714004B2A73 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5DAABAD9202ED714004B2A73 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5DAABADA202ED714004B2A73 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5DAABADE202ED714004B2A73 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5DAABADF202ED714004B2A73 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5DAABAED202ED714004B2A73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5DAABAEE202ED714004B2A73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5DAABAF0202ED714004B2A73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N6TQ4GM4YD;
+				INFOPLIST_FILE = PaxusApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jithinpala.PaxusApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5DAABAF1202ED714004B2A73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N6TQ4GM4YD;
+				INFOPLIST_FILE = PaxusApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jithinpala.PaxusApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5DAABAF3202ED714004B2A73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N6TQ4GM4YD;
+				INFOPLIST_FILE = PaxusAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jithinpala.PaxusAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PaxusApp.app/PaxusApp";
+			};
+			name = Debug;
+		};
+		5DAABAF4202ED714004B2A73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N6TQ4GM4YD;
+				INFOPLIST_FILE = PaxusAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jithinpala.PaxusAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PaxusApp.app/PaxusApp";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5DAABACD202ED714004B2A73 /* Build configuration list for PBXProject "PaxusApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DAABAED202ED714004B2A73 /* Debug */,
+				5DAABAEE202ED714004B2A73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5DAABAEF202ED714004B2A73 /* Build configuration list for PBXNativeTarget "PaxusApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DAABAF0202ED714004B2A73 /* Debug */,
+				5DAABAF1202ED714004B2A73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5DAABAF2202ED714004B2A73 /* Build configuration list for PBXNativeTarget "PaxusAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DAABAF3202ED714004B2A73 /* Debug */,
+				5DAABAF4202ED714004B2A73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5DAABACA202ED714004B2A73 /* Project object */;
+}
