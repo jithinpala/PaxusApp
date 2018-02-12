@@ -7,7 +7,20 @@
 		<key>PaxusApp.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>0</integer>
+			<integer>6</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>5DAABAD1202ED714004B2A73</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5DAABAE5202ED714004B2A73</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>

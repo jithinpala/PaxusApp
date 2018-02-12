@@ -7,12 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4BF6049D35363A037E87FD83 /* Pods_PaxusApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55079A7A9DEA2EFCA383F34B /* Pods_PaxusApp.framework */; };
 		5DAABAD6202ED714004B2A73 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DAABAD5202ED714004B2A73 /* AppDelegate.swift */; };
-		5DAABAD8202ED714004B2A73 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DAABAD7202ED714004B2A73 /* ViewController.swift */; };
-		5DAABADB202ED714004B2A73 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DAABAD9202ED714004B2A73 /* Main.storyboard */; };
-		5DAABADD202ED714004B2A73 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5DAABADC202ED714004B2A73 /* Assets.xcassets */; };
-		5DAABAE0202ED714004B2A73 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DAABADE202ED714004B2A73 /* LaunchScreen.storyboard */; };
 		5DAABAEB202ED714004B2A73 /* PaxusAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DAABAEA202ED714004B2A73 /* PaxusAppTests.swift */; };
+		5DAABB2A202ED756004B2A73 /* PXAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DAABAF8202ED755004B2A73 /* PXAlert.swift */; };
+		5DAABB2B202ED756004B2A73 /* PXImageAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DAABAFA202ED755004B2A73 /* PXImageAnimation.swift */; };
+		5DAABB2C202ED756004B2A73 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DAABAFC202ED755004B2A73 /* ColorExtension.swift */; };
+		5DAABB2D202ED756004B2A73 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DAABAFD202ED755004B2A73 /* StringExtension.swift */; };
+		5DAABB2E202ED756004B2A73 /* UIApplicationExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DAABAFE202ED755004B2A73 /* UIApplicationExtension.swift */; };
+		5DAABB2F202ED756004B2A73 /* UITableViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DAABAFF202ED755004B2A73 /* UITableViewExtension.swift */; };
+		5DAABB30202ED756004B2A73 /* APIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DAABB01202ED755004B2A73 /* APIError.swift */; };
+		5DAABB33202ED756004B2A73 /* SWProgressHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DAABB05202ED755004B2A73 /* SWProgressHUD.swift */; };
+		5DAABB34202ED756004B2A73 /* FeatureListServiceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DAABB07202ED755004B2A73 /* FeatureListServiceManager.swift */; };
+		5DAABB37202ED756004B2A73 /* NetworkingAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DAABB0D202ED755004B2A73 /* NetworkingAPI.swift */; };
+		5DAABB38202ED756004B2A73 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DAABB0F202ED755004B2A73 /* Reachability.swift */; };
+		5DAABB39202ED756004B2A73 /* WebserviceServerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DAABB11202ED755004B2A73 /* WebserviceServerManager.swift */; };
+		5DAABB3D202ED756004B2A73 /* ActorsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DAABB1A202ED755004B2A73 /* ActorsListViewController.swift */; };
+		5DAABB3E202ED756004B2A73 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DAABB1C202ED755004B2A73 /* RootViewController.swift */; };
+		5DAABB3F202ED756004B2A73 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5DAABB1E202ED756004B2A73 /* Assets.xcassets */; };
+		5DAABB40202ED756004B2A73 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5DAABB1F202ED756004B2A73 /* Localizable.strings */; };
+		5DAABB41202ED756004B2A73 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DAABB21202ED756004B2A73 /* LaunchScreen.storyboard */; };
+		5DAABB42202ED756004B2A73 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DAABB23202ED756004B2A73 /* Main.storyboard */; };
+		5DAABB43202ED756004B2A73 /* StoryboardIdentifierHandlerType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DAABB26202ED756004B2A73 /* StoryboardIdentifierHandlerType.swift */; };
+		5DAABB44202ED756004B2A73 /* UIStoryboard+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DAABB27202ED756004B2A73 /* UIStoryboard+Helpers.swift */; };
+		5DAABB45202ED756004B2A73 /* ViewControllers+StoryboardIdentifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DAABB28202ED756004B2A73 /* ViewControllers+StoryboardIdentifiers.swift */; };
+		5DAABB46202ED756004B2A73 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DAABB29202ED756004B2A73 /* Home.storyboard */; };
+		5DCDE6D8203154B400400C92 /* ActorsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DCDE6D7203154B400400C92 /* ActorsModel.swift */; };
+		5DCDE6DA203157CC00400C92 /* ActorDetailsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DCDE6D9203157CC00400C92 /* ActorDetailsTableViewCell.swift */; };
+		5DCDE6DC2031733F00400C92 /* TableViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DCDE6DB2031733F00400C92 /* TableViewExtension.swift */; };
+		5DCDE6DE20318F9D00400C92 /* PXHelpTesting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DCDE6DD20318F9D00400C92 /* PXHelpTesting.swift */; };
+		A1FA0A4984CB6DE650BE55ED /* Pods_PaxusAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E1B41DB083746E2786D83CC /* Pods_PaxusAppTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,16 +50,44 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2672A0C0CE05DF87C9A58893 /* Pods-PaxusApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PaxusApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-PaxusApp/Pods-PaxusApp.release.xcconfig"; sourceTree = "<group>"; };
+		55079A7A9DEA2EFCA383F34B /* Pods_PaxusApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PaxusApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DAABAD2202ED714004B2A73 /* PaxusApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PaxusApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DAABAD5202ED714004B2A73 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5DAABAD7202ED714004B2A73 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		5DAABADA202ED714004B2A73 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		5DAABADC202ED714004B2A73 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		5DAABADF202ED714004B2A73 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5DAABAE1202ED714004B2A73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5DAABAE6202ED714004B2A73 /* PaxusAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PaxusAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DAABAEA202ED714004B2A73 /* PaxusAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaxusAppTests.swift; sourceTree = "<group>"; };
 		5DAABAEC202ED714004B2A73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5DAABAF8202ED755004B2A73 /* PXAlert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PXAlert.swift; sourceTree = "<group>"; };
+		5DAABAFA202ED755004B2A73 /* PXImageAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PXImageAnimation.swift; sourceTree = "<group>"; };
+		5DAABAFC202ED755004B2A73 /* ColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
+		5DAABAFD202ED755004B2A73 /* StringExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		5DAABAFE202ED755004B2A73 /* UIApplicationExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIApplicationExtension.swift; sourceTree = "<group>"; };
+		5DAABAFF202ED755004B2A73 /* UITableViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITableViewExtension.swift; sourceTree = "<group>"; };
+		5DAABB01202ED755004B2A73 /* APIError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIError.swift; sourceTree = "<group>"; };
+		5DAABB05202ED755004B2A73 /* SWProgressHUD.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SWProgressHUD.swift; sourceTree = "<group>"; };
+		5DAABB07202ED755004B2A73 /* FeatureListServiceManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeatureListServiceManager.swift; sourceTree = "<group>"; };
+		5DAABB0D202ED755004B2A73 /* NetworkingAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkingAPI.swift; sourceTree = "<group>"; };
+		5DAABB0F202ED755004B2A73 /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		5DAABB11202ED755004B2A73 /* WebserviceServerManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebserviceServerManager.swift; sourceTree = "<group>"; };
+		5DAABB1A202ED755004B2A73 /* ActorsListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActorsListViewController.swift; sourceTree = "<group>"; };
+		5DAABB1C202ED755004B2A73 /* RootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		5DAABB1E202ED756004B2A73 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5DAABB1F202ED756004B2A73 /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		5DAABB22202ED756004B2A73 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5DAABB24202ED756004B2A73 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5DAABB26202ED756004B2A73 /* StoryboardIdentifierHandlerType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoryboardIdentifierHandlerType.swift; sourceTree = "<group>"; };
+		5DAABB27202ED756004B2A73 /* UIStoryboard+Helpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIStoryboard+Helpers.swift"; sourceTree = "<group>"; };
+		5DAABB28202ED756004B2A73 /* ViewControllers+StoryboardIdentifiers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ViewControllers+StoryboardIdentifiers.swift"; sourceTree = "<group>"; };
+		5DAABB29202ED756004B2A73 /* Home.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		5DCDE6D7203154B400400C92 /* ActorsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActorsModel.swift; sourceTree = "<group>"; };
+		5DCDE6D9203157CC00400C92 /* ActorDetailsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActorDetailsTableViewCell.swift; sourceTree = "<group>"; };
+		5DCDE6DB2031733F00400C92 /* TableViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewExtension.swift; sourceTree = "<group>"; };
+		5DCDE6DD20318F9D00400C92 /* PXHelpTesting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PXHelpTesting.swift; sourceTree = "<group>"; };
+		6E1B41DB083746E2786D83CC /* Pods_PaxusAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PaxusAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		82656629E4E92906447F2A46 /* Pods-PaxusAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PaxusAppTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PaxusAppTests/Pods-PaxusAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9A787F224DD52D4537900C64 /* Pods-PaxusAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PaxusAppTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PaxusAppTests/Pods-PaxusAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		DB97D1619F926FE34817A785 /* Pods-PaxusApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PaxusApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PaxusApp/Pods-PaxusApp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +95,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4BF6049D35363A037E87FD83 /* Pods_PaxusApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,18 +103,41 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1FA0A4984CB6DE650BE55ED /* Pods_PaxusAppTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		398E427C91648B8BA9EE6200 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DB97D1619F926FE34817A785 /* Pods-PaxusApp.debug.xcconfig */,
+				2672A0C0CE05DF87C9A58893 /* Pods-PaxusApp.release.xcconfig */,
+				82656629E4E92906447F2A46 /* Pods-PaxusAppTests.debug.xcconfig */,
+				9A787F224DD52D4537900C64 /* Pods-PaxusAppTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4875F8544DB17E36421BE0CF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				55079A7A9DEA2EFCA383F34B /* Pods_PaxusApp.framework */,
+				6E1B41DB083746E2786D83CC /* Pods_PaxusAppTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		5DAABAC9202ED714004B2A73 = {
 			isa = PBXGroup;
 			children = (
 				5DAABAD4202ED714004B2A73 /* PaxusApp */,
 				5DAABAE9202ED714004B2A73 /* PaxusAppTests */,
 				5DAABAD3202ED714004B2A73 /* Products */,
+				398E427C91648B8BA9EE6200 /* Pods */,
+				4875F8544DB17E36421BE0CF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -77,11 +153,10 @@
 		5DAABAD4202ED714004B2A73 /* PaxusApp */ = {
 			isa = PBXGroup;
 			children = (
+				5DAABAF5202ED755004B2A73 /* Classes */,
+				5DAABB1D202ED756004B2A73 /* Resources */,
+				5DAABB20202ED756004B2A73 /* Storyboards */,
 				5DAABAD5202ED714004B2A73 /* AppDelegate.swift */,
-				5DAABAD7202ED714004B2A73 /* ViewController.swift */,
-				5DAABAD9202ED714004B2A73 /* Main.storyboard */,
-				5DAABADC202ED714004B2A73 /* Assets.xcassets */,
-				5DAABADE202ED714004B2A73 /* LaunchScreen.storyboard */,
 				5DAABAE1202ED714004B2A73 /* Info.plist */,
 			);
 			path = PaxusApp;
@@ -92,8 +167,183 @@
 			children = (
 				5DAABAEA202ED714004B2A73 /* PaxusAppTests.swift */,
 				5DAABAEC202ED714004B2A73 /* Info.plist */,
+				5DCDE6DD20318F9D00400C92 /* PXHelpTesting.swift */,
 			);
 			path = PaxusAppTests;
+			sourceTree = "<group>";
+		};
+		5DAABAF5202ED755004B2A73 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				5DAABAF6202ED755004B2A73 /* AppComponents */,
+				5DAABB08202ED755004B2A73 /* CoreComponents */,
+				5DAABB12202ED755004B2A73 /* ViewControllers */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		5DAABAF6202ED755004B2A73 /* AppComponents */ = {
+			isa = PBXGroup;
+			children = (
+				5DAABAF7202ED755004B2A73 /* Alert */,
+				5DAABAF9202ED755004B2A73 /* Common */,
+				5DAABAFB202ED755004B2A73 /* Extensions */,
+				5DAABB00202ED755004B2A73 /* Model */,
+				5DAABB04202ED755004B2A73 /* ProgressHUD */,
+				5DAABB06202ED755004B2A73 /* Webservice Module */,
+			);
+			path = AppComponents;
+			sourceTree = "<group>";
+		};
+		5DAABAF7202ED755004B2A73 /* Alert */ = {
+			isa = PBXGroup;
+			children = (
+				5DAABAF8202ED755004B2A73 /* PXAlert.swift */,
+			);
+			path = Alert;
+			sourceTree = "<group>";
+		};
+		5DAABAF9202ED755004B2A73 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				5DAABAFA202ED755004B2A73 /* PXImageAnimation.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		5DAABAFB202ED755004B2A73 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				5DAABAFC202ED755004B2A73 /* ColorExtension.swift */,
+				5DAABAFD202ED755004B2A73 /* StringExtension.swift */,
+				5DAABAFE202ED755004B2A73 /* UIApplicationExtension.swift */,
+				5DAABAFF202ED755004B2A73 /* UITableViewExtension.swift */,
+				5DCDE6DB2031733F00400C92 /* TableViewExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		5DAABB00202ED755004B2A73 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5DAABB01202ED755004B2A73 /* APIError.swift */,
+				5DCDE6D7203154B400400C92 /* ActorsModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5DAABB04202ED755004B2A73 /* ProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				5DAABB05202ED755004B2A73 /* SWProgressHUD.swift */,
+			);
+			path = ProgressHUD;
+			sourceTree = "<group>";
+		};
+		5DAABB06202ED755004B2A73 /* Webservice Module */ = {
+			isa = PBXGroup;
+			children = (
+				5DAABB07202ED755004B2A73 /* FeatureListServiceManager.swift */,
+			);
+			path = "Webservice Module";
+			sourceTree = "<group>";
+		};
+		5DAABB08202ED755004B2A73 /* CoreComponents */ = {
+			isa = PBXGroup;
+			children = (
+				5DAABB0C202ED755004B2A73 /* Networking */,
+				5DAABB0E202ED755004B2A73 /* Reachability */,
+				5DAABB10202ED755004B2A73 /* Server Interaction */,
+			);
+			path = CoreComponents;
+			sourceTree = "<group>";
+		};
+		5DAABB0C202ED755004B2A73 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				5DAABB0D202ED755004B2A73 /* NetworkingAPI.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		5DAABB0E202ED755004B2A73 /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				5DAABB0F202ED755004B2A73 /* Reachability.swift */,
+			);
+			path = Reachability;
+			sourceTree = "<group>";
+		};
+		5DAABB10202ED755004B2A73 /* Server Interaction */ = {
+			isa = PBXGroup;
+			children = (
+				5DAABB11202ED755004B2A73 /* WebserviceServerManager.swift */,
+			);
+			path = "Server Interaction";
+			sourceTree = "<group>";
+		};
+		5DAABB12202ED755004B2A73 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				5DAABB17202ED755004B2A73 /* Home */,
+				5DAABB1B202ED755004B2A73 /* Root */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		5DAABB17202ED755004B2A73 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				5DAABB18202ED755004B2A73 /* People Table Cell */,
+				5DAABB1A202ED755004B2A73 /* ActorsListViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		5DAABB18202ED755004B2A73 /* People Table Cell */ = {
+			isa = PBXGroup;
+			children = (
+				5DCDE6D9203157CC00400C92 /* ActorDetailsTableViewCell.swift */,
+			);
+			path = "People Table Cell";
+			sourceTree = "<group>";
+		};
+		5DAABB1B202ED755004B2A73 /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				5DAABB1C202ED755004B2A73 /* RootViewController.swift */,
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
+		5DAABB1D202ED756004B2A73 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5DAABB1E202ED756004B2A73 /* Assets.xcassets */,
+				5DAABB1F202ED756004B2A73 /* Localizable.strings */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		5DAABB20202ED756004B2A73 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				5DAABB21202ED756004B2A73 /* LaunchScreen.storyboard */,
+				5DAABB23202ED756004B2A73 /* Main.storyboard */,
+				5DAABB25202ED756004B2A73 /* Handler */,
+				5DAABB29202ED756004B2A73 /* Home.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		5DAABB25202ED756004B2A73 /* Handler */ = {
+			isa = PBXGroup;
+			children = (
+				5DAABB26202ED756004B2A73 /* StoryboardIdentifierHandlerType.swift */,
+				5DAABB27202ED756004B2A73 /* UIStoryboard+Helpers.swift */,
+				5DAABB28202ED756004B2A73 /* ViewControllers+StoryboardIdentifiers.swift */,
+			);
+			path = Handler;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -103,9 +353,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5DAABAEF202ED714004B2A73 /* Build configuration list for PBXNativeTarget "PaxusApp" */;
 			buildPhases = (
+				C87A99EE9E358CF332A8E3A8 /* [CP] Check Pods Manifest.lock */,
 				5DAABACE202ED714004B2A73 /* Sources */,
 				5DAABACF202ED714004B2A73 /* Frameworks */,
 				5DAABAD0202ED714004B2A73 /* Resources */,
+				F4B5DB3EDF322F815CC21F0D /* [CP] Embed Pods Frameworks */,
+				79FB8A023E8410AA0332A84B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -120,9 +373,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5DAABAF2202ED714004B2A73 /* Build configuration list for PBXNativeTarget "PaxusAppTests" */;
 			buildPhases = (
+				7988C87EEFECD89653AEAE7A /* [CP] Check Pods Manifest.lock */,
 				5DAABAE2202ED714004B2A73 /* Sources */,
 				5DAABAE3202ED714004B2A73 /* Frameworks */,
 				5DAABAE4202ED714004B2A73 /* Resources */,
+				FF9C56E360D466A1C1A7BC82 /* [CP] Embed Pods Frameworks */,
+				F55C94015D5F5C58855B471A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -179,9 +435,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5DAABAE0202ED714004B2A73 /* LaunchScreen.storyboard in Resources */,
-				5DAABADD202ED714004B2A73 /* Assets.xcassets in Resources */,
-				5DAABADB202ED714004B2A73 /* Main.storyboard in Resources */,
+				5DAABB41202ED756004B2A73 /* LaunchScreen.storyboard in Resources */,
+				5DAABB46202ED756004B2A73 /* Home.storyboard in Resources */,
+				5DAABB3F202ED756004B2A73 /* Assets.xcassets in Resources */,
+				5DAABB40202ED756004B2A73 /* Localizable.strings in Resources */,
+				5DAABB42202ED756004B2A73 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -194,13 +452,140 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		7988C87EEFECD89653AEAE7A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PaxusAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		79FB8A023E8410AA0332A84B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PaxusApp/Pods-PaxusApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C87A99EE9E358CF332A8E3A8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PaxusApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F4B5DB3EDF322F815CC21F0D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-PaxusApp/Pods-PaxusApp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
+				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PaxusApp/Pods-PaxusApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F55C94015D5F5C58855B471A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PaxusAppTests/Pods-PaxusAppTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FF9C56E360D466A1C1A7BC82 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PaxusAppTests/Pods-PaxusAppTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5DAABACE202ED714004B2A73 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5DAABAD8202ED714004B2A73 /* ViewController.swift in Sources */,
+				5DAABB44202ED756004B2A73 /* UIStoryboard+Helpers.swift in Sources */,
+				5DCDE6DA203157CC00400C92 /* ActorDetailsTableViewCell.swift in Sources */,
+				5DAABB45202ED756004B2A73 /* ViewControllers+StoryboardIdentifiers.swift in Sources */,
+				5DAABB3D202ED756004B2A73 /* ActorsListViewController.swift in Sources */,
+				5DAABB2E202ED756004B2A73 /* UIApplicationExtension.swift in Sources */,
+				5DAABB2B202ED756004B2A73 /* PXImageAnimation.swift in Sources */,
+				5DAABB2A202ED756004B2A73 /* PXAlert.swift in Sources */,
+				5DCDE6DC2031733F00400C92 /* TableViewExtension.swift in Sources */,
+				5DAABB2D202ED756004B2A73 /* StringExtension.swift in Sources */,
 				5DAABAD6202ED714004B2A73 /* AppDelegate.swift in Sources */,
+				5DAABB33202ED756004B2A73 /* SWProgressHUD.swift in Sources */,
+				5DAABB30202ED756004B2A73 /* APIError.swift in Sources */,
+				5DAABB37202ED756004B2A73 /* NetworkingAPI.swift in Sources */,
+				5DCDE6D8203154B400400C92 /* ActorsModel.swift in Sources */,
+				5DAABB3E202ED756004B2A73 /* RootViewController.swift in Sources */,
+				5DAABB2C202ED756004B2A73 /* ColorExtension.swift in Sources */,
+				5DAABB34202ED756004B2A73 /* FeatureListServiceManager.swift in Sources */,
+				5DAABB39202ED756004B2A73 /* WebserviceServerManager.swift in Sources */,
+				5DAABB38202ED756004B2A73 /* Reachability.swift in Sources */,
+				5DAABB43202ED756004B2A73 /* StoryboardIdentifierHandlerType.swift in Sources */,
+				5DAABB2F202ED756004B2A73 /* UITableViewExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -209,6 +594,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5DAABAEB202ED714004B2A73 /* PaxusAppTests.swift in Sources */,
+				5DCDE6DE20318F9D00400C92 /* PXHelpTesting.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -223,20 +609,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		5DAABAD9202ED714004B2A73 /* Main.storyboard */ = {
+		5DAABB21202ED756004B2A73 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				5DAABADA202ED714004B2A73 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		5DAABADE202ED714004B2A73 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5DAABADF202ED714004B2A73 /* Base */,
+				5DAABB22202ED756004B2A73 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		5DAABB23202ED756004B2A73 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5DAABB24202ED756004B2A73 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -351,6 +737,7 @@
 		};
 		5DAABAF0202ED714004B2A73 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB97D1619F926FE34817A785 /* Pods-PaxusApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -366,6 +753,7 @@
 		};
 		5DAABAF1202ED714004B2A73 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2672A0C0CE05DF87C9A58893 /* Pods-PaxusApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -381,6 +769,7 @@
 		};
 		5DAABAF3202ED714004B2A73 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82656629E4E92906447F2A46 /* Pods-PaxusAppTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -398,6 +787,7 @@
 		};
 		5DAABAF4202ED714004B2A73 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A787F224DD52D4537900C64 /* Pods-PaxusAppTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
